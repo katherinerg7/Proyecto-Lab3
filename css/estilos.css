@@ -1,0 +1,415 @@
+/* INICIO */    
+ 
+body {
+  background-image: url("../imagenes/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover ;
+  font-family: "helvetica", sans-serif;
+
+}
+       
+/* POSICION MENU */
+
+nav {
+     display: inline-block;
+     margin: 10;
+     padding: 10;
+     font-size: 20px;
+     font-weight: 500px;
+
+           
+}
+
+nav ul{
+
+    list-style: none;
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+ } 
+
+    nav ul li:hover ul {
+    opacity: 1;
+    visibility: visible; }
+
+
+nav ul li a {
+    font-family: SkyFall Done;
+    font-size: 1.2rem; 
+    display: block;
+    background: #000000;
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    transition: 330ms all ease-out;
+}
+
+nav ul li a:hover{
+    background:#f9f6f6;
+    color: #000000;
+}
+nav ul li ul{
+    display: block;
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    transition: 330ms all ease-out;
+}
+
+/* IMAGEN */
+
+img {
+ width: 80%;
+ height: 80%;
+}
+
+#imagenprincipal img {
+ height: 100%;
+ width: 79.5%;
+ margin-left: 10%;
+
+}
+
+/* LOGO */ 
+
+.principal{
+    width: 100%;
+    height: 300px;
+    color: #fcfbf4;
+}
+
+.principal div {
+    margin: 1% 30%;
+}
+
+
+.principal h1 {
+    font-size: 100px;
+    font-family: SkyFall Done;
+    margin-bottom: 10px;
+    text-shadow: 8px 8px 8px black;
+
+
+}
+
+/* PAGINA SOBRE LA SERIE */ 
+
+ h1 {
+   
+    font-size: 35px;
+    font-family: optima;
+    padding: 0px;
+    text-shadow: 0.5rem 0.5rem 0.5rem black;
+
+ }
+
+
+#textoserie {
+    
+  font-family: cambria;
+  font-size: 22px;
+  color: white;
+  background-color: #2b2139  ;
+  box-shadow: 6px 2px 2px black ;
+  width: 55% ;
+  height: 150%;
+  margin-left: 20%;
+  margin-bottom: 0.5rem;
+  float: left;
+}
+
+
+#textoserie p {
+  
+  display: block;
+  margin-left: 15%;
+  margin-right: 20%; 
+}
+
+#imagenserie img{
+  
+  width: 40rem;
+  height:  25rem;
+  margin-left: 8rem;
+  margin-top: 5rem;
+
+}
+
+  
+
+}
+
+
+/*TEMPORADAS */
+ 
+#capitulos h1 {
+   
+    font-size: 35px;
+    font-family: optima;
+    padding: 0px;
+    text-shadow: 0.5rem 0.5rem 0.5rem black;
+
+ }
+
+
+
+#capitulos {
+    
+  font-family: perpetua;
+  font-size: 1.6rem;  
+  color: white;
+  background-color: #190b22 ;
+  margin-left: 15rem;
+  width: 70% ;
+  height: 100%;
+  float: left;
+  border: 0.1rem white;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  border: solid 0.5rem #0a0a12;
+
+}
+
+#capitulos p {
+    
+  font-family: cambria;
+  margin-right: 5rem;
+}
+
+
+.capitulosimg{
+  float: left;
+  width: 30rem;
+  height:  20rem;
+  margin: 0;
+}
+
+
+.capitulosimg img{
+
+  margin-left: 3rem;
+  border: solid 0.5rem #0a0a12;
+
+}
+
+
+
+/* PERSONAJES */
+
+#personajes h1 {
+   
+    font-size: 35px;
+    font-family: optima;
+    padding: 0px;
+    text-shadow: 0.5rem 0.5rem 0.5rem black;
+
+ }
+
+#personajes {
+    
+  font-family: optima;
+  font-size: 1.6rem;
+  color: white;
+  background-color:#190b22;
+  margin-left: 12%;
+  box-shadow: 6px 2px 2px black ;
+  width: 60% ;
+  height: 90%;
+  float: left;
+  border: solid 0.5rem #0a0a12;
+  margin-left: 21rem;
+
+}
+
+
+#personajes p {
+  
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%; 
+  margin-top: 3rem;
+
+}
+
+
+.personajesimg{
+  float: left;
+  width: 22rem;
+  height: 30rem;
+  margin: 0;
+
+
+}
+
+.personajesimg img{
+
+  margin-left: 2.5rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem black;
+
+
+
+}
+
+
+/* FORMULARIO */ 
+
+.boton {
+  overflow: visible;
+}
+
+.boton, select {
+  text-transform: none;
+}
+
+.boton, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+#container {
+  border: solid 3px #474544;
+  width: 50rem;
+  margin: 20px auto;
+  background: #F2F3EB;
+
+  
+}
+
+#contactoform {
+
+  margin: 5rem ;
+  background: #F2F3EB;
+}
+
+ h1 {
+  
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-align: center;
+
+
+}
+
+
+input[type='text'], [type='email'], select, textarea {
+  background: #F2F3EB;
+  border: none;
+  border-bottom: solid 2px #474544;
+  color: #474544;
+  font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  margin-bottom: 2rem;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+
+  
+  }
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+}
+
+#boton {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 2% 3%;
+  text-transform: uppercase;
+
+}
+
+
+/* GALERIA */ 
+
+.galeria {
+  
+   width: 16rem; 
+   height: 10rem;
+   margin: 0.2rem;
+   border: solid 0.3rem #0a0a12;
+}
+
+.galeria:hover {
+  
+   border: 0.2rem solid white;
+  
+}
+
+#contenedorgaleria h1 {
+  
+    font-size: 2.5rem;
+    font-family: optima;
+    padding: 0px;
+    color: white;
+}
+
+#contenedorgaleria {
+  margin-left: 12rem;
+  background-color:#190b22;
+  width: 70rem;
+  height: 60rem;
+  padding-top: 0.5rem;
+  padding-left: 5rem;
+  padding-right: 4rem;
+
+}
+
+/* ARTICULOS */
+
+.articulos{
+  
+    padding-top: 0.5rem;
+    margin-left: 11rem;
+    display: flex;
+    width: 80rem;
+    background: #F2F3EB;
+    border: solid  #474544;
+
+}
+.articulos div{
+   
+    padding: 2%;
+
+}
+.articulos img{
+   float: left;
+   height:  35rem;
+   border: solid  #474544;
+   margin-left: 2.3rem;}
+
+
+/* FOOTER */ 
+
+
+footer {
+    
+    font-family: helvetica;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    float: left;
+} 
+
+/* RESPONSIVE */
+
+
